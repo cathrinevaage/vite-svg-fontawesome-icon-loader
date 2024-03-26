@@ -65,7 +65,7 @@ library.add(cuMyIcon)
 ```
 
 ### Rendering
-Use one of the following approaches to render custom icon.
+Use one of the following approaches to render a custom icon.
 
 #### `<i>` element with class:
 ```html
@@ -114,7 +114,7 @@ Example:
 import cusTestIcon from './solid-test-icon.svg?fontawesome&prefix=cus&icon-name=test-icon&aliases=these-are,all-some,aliases'
 ```
 
-This results in an icon with the prefix `'cus'`, icon name `'test-icon'`, and aliases `['these-are', 'all', 'aliases']`.
+This results in an icon with the prefix `'cus'`, icon name `'test-icon'`, and aliases `['these-are', 'all-some', 'aliases']`.
 
 ‼️ There is no Typescript support for this. ‼️  
 ⚠️ If the `fileNameParser` is specified, it must parse out and apply options from query parameters, if that is desired.
