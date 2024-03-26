@@ -1,0 +1,50 @@
+{
+  "name": "vite-svg-fontawesome-icon-loader",
+  "version": "1.0.0",
+  "description": "A vite plugin that lets you import svg files as fontawesome icon definitions.",
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "files": [
+    "dist",
+    "ambient.d.ts"
+  ],
+  "type": "module",
+  "module": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cathrinevaage/vite-svg-fontawesome-icon-loader.git"
+  },
+  "keywords": [
+    "vite",
+    "svg",
+    "font",
+    "awesome",
+    "fontawesome",
+    "icon",
+    "loader",
+    "plugin"
+  ],
+  "author": "Cathrine Vaage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cathrinevaage/vite-svg-fontawesome-icon-loader/issues"
+  },
+  "homepage": "https://github.com/cathrinevaage/vite-svg-fontawesome-icon-loader#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.3",
+    "vite": "^5.2.6",
+    "vite-plugin-dts": "^3.7.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-common-types": "^6.5.1",
+    "svgo": "3.2.0"
+  }
+}
