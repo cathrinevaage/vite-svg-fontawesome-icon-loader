@@ -159,7 +159,10 @@ All non-alphanumeric characters are removed from words.
 ## Infer prefix
 When the `inferPrefix` option is enabled, it will attempt to infer the prefix from first word of the icon name, if it
 contains more than one word.  
-If the first word starts with the prefix (default: `'cu'`), it will treat that whole word as 
+If the first word starts with the prefix (default: `'cu'`), it will treat that whole word as the prefix.
+
+Example:  
+`cusMyIcon.svg` => Prefix: `'cus'`, Icon name: `'my-icon'`. 
 
 ## SVGO
 This plugin uses [SVGO](https://svgo.dev) to parse and simplify the svg data.  
