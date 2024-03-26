@@ -1,6 +1,6 @@
 {
   "name": "vite-svg-fontawesome-icon-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A vite plugin that lets you import svg files as fontawesome icon definitions.",
   "scripts": {
     "build": "tsc && vite build"
